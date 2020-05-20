@@ -20,9 +20,10 @@ public class DuplicateFinderList {
 		li.add("E");
 		li.add("F");
 		Set<String> set=new LinkedHashSet<String>(li);
-		System.out.println(set);
+		//System.out.println(set);
 		li.clear();
 		li.addAll(set);
+		System.out.println(li);
 	}
 
 }
